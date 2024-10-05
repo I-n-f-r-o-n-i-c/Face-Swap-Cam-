@@ -16,7 +16,7 @@ cap.set(3, width)
 cap.set(4, height)
 
 # Load the source image for face swapping
-image = cv2.imread(r"C:\Users\singh\AI Projects\DeepFake\Face_Swap_Camera\c7acf191ec5011a895eb22d9dbc83b85.jpg")
+image = cv2.imread("c7acf191ec5011a895eb22d9dbc83b85.jpg")
 if image is None:
     print("Error: Could not read the source image.")
     sys.exit(1)
